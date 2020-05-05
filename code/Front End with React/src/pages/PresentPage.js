@@ -33,10 +33,12 @@ class PresentPage extends Component {
 
     componentDidMount() {
         console.log(this.state.quizQuestions)
-        this.setState({
-            question: this.state.quizQuestions[0].question,
-            answerOptions: this.state.quizQuestions[0].answers
-        });
+        if (this.state.quizQuestions){
+            this.setState({
+                question: this.state.quizQuestions[0].question,
+                answerOptions: this.state.quizQuestions[0].answers
+            });
+        }
     }
 
     /**

@@ -31,10 +31,12 @@ class StudentPage extends Component {
     }
 
     componentDidMount() {
-        this.setState({
-            question: this.state.quizQuestions[0].question,
-            answerOptions: this.state.quizQuestions[0].answers
-        });
+        if (this.state.quizQuestions){
+            this.setState({
+                question: this.state.quizQuestions[0].question,
+                answerOptions: this.state.quizQuestions[0].answers
+            });
+        }
     }
 
     /**
