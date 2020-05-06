@@ -49,7 +49,7 @@ class AppRouter extends Component {
           <PublicRoute restricted={false} component={StudentPage} path="/student" exact />
           <PrivateRoute component={MyUpload} path="/HomePage" exact />
           <PrivateRoute component={PresentPage} path="/presenter" exact />
-          <PrivateRoute component={UploadHistory} path="/history" exact />
+          <PrivateRoute component={UploadHistory} path="/HistoryPage" exact />
       </Switch>
       </Router>
      

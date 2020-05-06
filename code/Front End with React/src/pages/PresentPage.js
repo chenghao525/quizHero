@@ -94,7 +94,7 @@ class PresentPage extends Component {
                 <h3>Presenter's response will not be recorded.</h3>
                 <Button
                     onClick={this.handleAnswerSelected}>
-                    <Icon /> Skip
+                    Skip
                 </Button>
             </div>
         );

@@ -272,7 +272,7 @@ class MyUpload extends React.Component{
                             <Link to={'/HomePage'}>Upload</Link>
                         </Menu.Item>
                         <Menu.Item key="2" style={{display:"inline-block",float:"left", width: "150px"}}>
-                            <Link to={'/history'}>History</Link>
+                            <Link to={'/HistoryPage'}>History</Link>
                         </Menu.Item>
                         
                         <div style={{display:"inline-block",float:"right",paddingRight:"60px"}}>

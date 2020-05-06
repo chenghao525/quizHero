@@ -50,10 +50,10 @@ class FirstPage extends Component {
                     <img src={logo} className="App-logo" alt="logo"/>
                     <div>
                         <Button onClick={this.toLogin} size={"large"} style={{marginRight: 10}}>
-                            <Icon/>I'm a Presenter
+                            I'm a Presenter
                         </Button>
                         <Button onClick={this.toEnterCode} size={"large"} style={{marginRight: 10}}>
-                            <Icon/>I'm a Student
+                            I'm a Student
                         </Button>
                     </div>
                     <a onClick={this.onDownload} style={{fontSize : 15, marginTop: 10}}>Download template</a>
